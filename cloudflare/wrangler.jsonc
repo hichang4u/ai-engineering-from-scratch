@@ -1,0 +1,18 @@
+{
+  // Built by `node build.mjs`; paths are relative to this file.
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "aifs-ko",
+  "main": ".dist/worker/worker.js",
+  "find_additional_modules": false,
+  "no_bundle": true,
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".dist/assets",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "none",
+    "not_found_handling": "none"
+  },
+  "observability": { "enabled": true }
+}
