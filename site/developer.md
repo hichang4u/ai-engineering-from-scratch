@@ -106,8 +106,8 @@ curl -i -H 'Accept: text/markdown' https://aiengineeringfromscratch.com/api/v1/m
 
 ## Lesson translations
 
-Course lessons are published in ten languages besides English: zh, hi, es, ar,
-fr, pt, pt-BR, tr, vi, and fa. The translations live on the public `translations`
+Course lessons are published in eleven languages besides English: zh, hi, es, ar,
+fr, pt, pt-BR, tr, ko, vi, and fa. The translations live on the public `translations`
 branch, never on main. The exact list per lesson comes from that branch's
 translation records and appears as `translations` in catalog and resource results.
 

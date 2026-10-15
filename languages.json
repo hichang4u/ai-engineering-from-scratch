@@ -109,7 +109,9 @@
       "code": "ko",
       "name": "Korean",
       "native": "한국어",
-      "nllb": "kor_Hang"
+      "nllb": "kor_Hang",
+      "locale": "ko_KR",
+      "ci": true
     },
     {
       "code": "it",
